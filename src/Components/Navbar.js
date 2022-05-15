@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-inverse" style={{backgroundColor:"#b10e81", height:100}}>
+            <nav className="navbar navbar-inverse navbar-fixed-top" style={{backgroundColor:"#b10e81", height:100}}>
                 <div className="container-fluid" style={{marginTop: 20}}>
                     <div className="navbar-header" >
                         <Link className="navbar-brand" to="/">Detection of Lumber Spine Stenosis</Link>

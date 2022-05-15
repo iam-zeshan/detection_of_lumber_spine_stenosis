@@ -10,7 +10,7 @@ function Home() {
             <div >
                 <div>
                     <img src={doctor} alt="doctor" style={{ width: "100%", height: "30%", marginTop: -20 }} />
-                    <div className="title"><h1 className="heading">Detection of Lumber Spine Stenosis through image <br/> classification using MRI image</h1>
+                    <div className="title"><h1 className="heading">Detection of Lumber Spine Stenosis through image <br /> classification using MRI image</h1>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ function Home() {
                 <h2 className="text-center">Team Members</h2>
                 <div className="row">
                     <div className="col-sm-4">
-                        <div className="card" style={{ marginBottom: 50, marginTop: 50, "width": "80%"}}>
+                        <div className="card" style={{ marginBottom: 50, marginTop: 50, "width": "80%" }}>
                             <img src={rafay} alt="Rafay Nisa" style={{ "width": "100%", height: 300 }} />
                             <div className="container_card" >
                                 <h4><b>Rafay Nisar</b></h4>
@@ -49,7 +49,7 @@ function Home() {
                     </div>
                     <div className="col-sm-4">
                         <div className="card" style={{ marginBottom: 50, marginTop: 50, "width": "80%" }}>
-                            <img src={umair} alt="Muhammad Umair" style={{ "width": "100%", height: 300 }}/>
+                            <img src={umair} alt="Muhammad Umair" style={{ "width": "100%", height: 300 }} />
                             <div className="container_card" >
                                 <h4><b>Muhammad Umair</b></h4>
                                 <p>Web Developer</p>
@@ -58,23 +58,23 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr />
             <div >
                 <div className="container" style={{ "width": "60%" }} id="contact">
                     <h2 className="text-center" style={{ marginBottom: 50 }}>CONTACT US</h2>
                     <div className="row">
-                        <div className="col-sm-5">
+                        <div>
                             <p>Contact us and we'll get back to you within 24 hours.</p>
                             <p><span className="glyphicon glyphicon-map-marker"></span> NUML H-9, Islamabad, Pakistan</p>
                             <p><span className="glyphicon glyphicon-phone"></span> +92-51-9265100</p>
                             <p><span className="glyphicon glyphicon-envelope"></span> info@numl.edu.pk</p>
-                        </div>
+                        </div><br/>
                         <div className="col-sm-7">
                             <div className="row">
-                                <div className="col-sm-6 form-group">
+                                <div className="col-sm-12 form-group">
                                     <input className="form-control" id="name" name="name" placeholder="Name" type="text" required />
                                 </div>
-                                <div className="col-sm-6 form-group">
+                                <div className="col-sm-12 form-group">
                                     <input className="form-control" id="email" name="email" placeholder="Email" type="email" required />
                                 </div>
                             </div>
